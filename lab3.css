@@ -1,0 +1,329 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./img3/pexels-alexander-ant-4585185.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+.body1{
+    margin:0px;
+    padding: 0px;
+    background:linear-gradient(to top,#33FF55, #33FCFF) ;
+    
+}
+.body2{
+margin:0px;
+padding: 0px;
+background-image: url(./img3/pexels-lucie-liz-3165335.jpg);
+background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1500px;
+}
+.body3{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./img3/pexels-frans-van-heerden-624015.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1300px;
+}
+.body4{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./img3/pexels-merlin-lightpainting-6978515.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+}
+.Menu{
+    background-color:#3339FF ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.Menu1{
+    list-style: none;
+    display: flex;
+}
+.Menu1 li{
+    margin: 15px;
+}
+.Menu1 a{
+color:#E9FF33;
+ text-decoration: none;
+font-size: 22;
+
+}
+.Menu1 a:hover{
+    color:red;
+    transition: 500ms;
+}
+.main{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja{
+    width: 400px;
+    height: 350px;
+    background-color: #F933FF;
+}
+
+.boton{
+    background:linear-gradient(to top,#E9FF33, #3339FF) ;
+    width: 320px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border: 0px;
+    border-radius: 50px;
+    height: 55px;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+}
+.boton a{
+    text-decoration: none;
+    color: red;
+    font-size: 30;
+}
+.main1{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton1{
+    background:linear-gradient(to top, #3339FF,#33FCFF) ;
+    width: 320px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border: 0px;
+    border-radius: 50px;
+    height: 55px;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+}
+.boton1 a{
+    text-decoration: none;
+    color: #F933FF;
+    font-size: 30;
+}
+.boton1 a:hover{
+    width: 350px;
+    color: #33FF55;
+    transition: 500ms;
+    margin-left: 50px;
+}
+.tarjeta{
+    margin: 10px;
+    border: 4px solid black;
+    border-radius: 40px;
+    padding: 30px;
+    display: flex;
+    width: 510px;
+    height: 210px;
+    background-color:#3339FF ;
+}
+.tarjeta img{
+    width: 200px;
+    height: 170px;
+    border-radius: 85px;
+    margin-right: 30px;
+    align-items: center;
+}
+.contenido{
+    color: #33FF55;
+    font-size: 16;
+    text-align: center;
+    border-radius: 85px;
+    margin-right: 30px;
+}
+.contenido h3{
+color: #33FF55;
+font-size: 22px;
+text-align: center;
+}
+.contenido p{
+    text-align: justify;
+    color: #33FCFF;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
+
+
+.tarjeta1{
+    margin: 10px;
+    border: 4px solid black;
+    border-radius: 40px;
+    padding: 30px;
+    display: flex;
+    width: 510px;
+    height: 210px;
+    background-color:#9C33FF ;
+}
+.tarjeta1 img{
+    width: 200px;
+    height: 170px;
+    border-radius: 85px;
+    margin-right: 30px;
+    align-items: center;
+}
+.contenido1{
+    color:#00FF00;
+    font-size: 16;
+    text-align: center;
+    border-radius: 85px;
+    margin-right: 30px;
+}
+.contenido1 h3{
+color: #00FF00;
+font-size: 22px;
+text-align: center;
+}
+.contenido1 p{
+    text-align: justify;
+    color: #33FCFF;
+}
+.contenedor1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta2{
+    margin: 10px;
+    border: 4px solid black;
+    border-radius: 40px;
+    padding: 30px;
+    display: flex;
+    width: 530px;
+    height: 240px;
+    background-color:#3339FF ;
+}
+.tarjeta2 img{
+    width: 200px;
+    height: 170px;
+    border-radius: 85px;
+    margin-right: 30px;
+    align-items: center;
+}
+.contenido2{
+    color: #33FF55;
+    font-size: 16;
+    text-align: center;
+    border-radius: 85px;
+    margin-right: 30px;
+}
+.contenido2 h3{
+color: #33FF55;
+font-size: 22px;
+text-align: center;
+}
+.contenido2 p{
+    text-align: justify;
+    color: #33FCFF;
+}
+.contenedor2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarjeta2{
+    margin: 10px;
+    border: 4px solid black;
+    border-radius: 40px;
+    padding: 30px;
+    display: flex;
+    width: 530px;
+    height: 240px;
+    background-color:#008080 ;
+}
+.tarjeta2 img{
+    width: 200px;
+    height: 170px;
+    border-radius: 85px;
+    margin-right: 30px;
+    align-items: center;
+}
+.contenido2{
+    color: #33FF55;
+    font-size: 16;
+    text-align: center;
+    border-radius: 85px;
+    margin-right: 30px;
+}
+.contenido2 h3{
+color: #33FF55;
+font-size: 22px;
+text-align: center;
+}
+.contenido2 p{
+    text-align: justify;
+    color: #33FCFF;
+}
+.contenedor2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#9C33FF;
+}
+
+form label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"],
+form input[type="email"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
